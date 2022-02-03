@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/BestBuyAPiTest">
+        <classes>
+            <class name="apiTest.ProductsAPiTest">
+                <methods>
+                    <include name="testGetALlProductsSuccessfully"/>
+                    <include name="testAddProductSuccessfully"/>
+                    <include name="testFindProductByIdSuccessfully"/>
+                    <include name="testUpdateProductSuccessfully"/>
+                    <include name="testDeleteProductSuccessfully"/>
+                    <include name="testLimitedProduct"/>
+                    <include name="testSkippedProduct"/>
+                    <include name="TestSortProductByHighestPrice"/>
+                    <include name="TestSortProductByLowestPrice"/>
+                    <include name="TestShownNameAndPriceOfAllProducts"/>
+                    <include name="TestProductsWithHardGood"/>
+                    <include name="TestProductsWithPriceLessThanDollar"/>
+                    <include name="showSpecPrice"/>
+                    <include name="showProductsWithShipPriceMoreThan10Dollar"/>
+                    <include name="showSpecType"/>
+                    <include name="showProductsByCategoryName"/>
+                    <include name="showProductsByCategoryId"/>
+                </methods>
+            </class>
+            <class name="apiTest.CategoriesAPiTest">
+               <methods>
+                   <include name="testGetALlCategoriesSuccessfully"/>
+                    <include name="testAddCategorySuccessfully"/>
+                    <include name="testFindCategoryByIdSuccessfully"/>
+                    <include name="testUpdateCategorySuccessfully"/>
+                    <include name="testDeleteCategorySuccessfully"/>
+                </methods>
+            </class>
+
+            <class name="apiTest.ServicesAPiTest">
+                <methods>
+                    <include name="TestGetAllServices"/>
+                    <include name="addServices"/>
+                    <include name="TestServicesAppears"/>
+                    <include name="TestUpdateServicesDetails"/>
+                    <include name="deleteServices"/>
+                </methods>
+            </class>
+            <class name="apiTest.StoresAPiTest">
+                <methods>
+                    <include name="testGetAllStoresSuccessfully"/>
+                    <include name="testAddStoreSuccessfully"/>
+                    <include name="testGetStoreByIdSuccessfully"/>
+                    <include name="testUpdateStoreSuccessfully"/>
+                    <include name="testDeleteStoreSuccessfully"/>
+                </methods>
+            </class>
+            <class name="apiTest.UtilitiesAPiTest">
+                <methods>
+                    <include name="TestGetVersion"/>
+                    <include name="TestGetHealthCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

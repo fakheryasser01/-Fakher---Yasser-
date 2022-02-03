@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="34" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="7453" started-at="2022-02-03T06:46:45 EET" finished-at="2022-02-03T06:46:53 EET">
+    <groups>
+    </groups>
+    <test name="F:/BestBuyAPiTest" duration-ms="7453" started-at="2022-02-03T06:46:45 EET" finished-at="2022-02-03T06:46:53 EET">
+      <class name="apiTest.StoresAPiTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:apiTest.StoresAPiTest@12b0404f]" name="beforeClass" is-config="true" duration-ms="5" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testGetAllStoresSuccessfully()[pri:0, instance:apiTest.StoresAPiTest@12b0404f]" name="testGetAllStoresSuccessfully" duration-ms="103" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllStoresSuccessfully -->
+        <test-method status="PASS" signature="testAddStoreSuccessfully()[pri:0, instance:apiTest.StoresAPiTest@12b0404f]" name="testAddStoreSuccessfully" duration-ms="67" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStoreSuccessfully -->
+        <test-method status="PASS" signature="testGetStoreByIdSuccessfully()[pri:0, instance:apiTest.StoresAPiTest@12b0404f]" name="testGetStoreByIdSuccessfully" duration-ms="46" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStoreByIdSuccessfully -->
+        <test-method status="PASS" signature="testUpdateStoreSuccessfully()[pri:0, instance:apiTest.StoresAPiTest@12b0404f]" name="testUpdateStoreSuccessfully" duration-ms="59" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateStoreSuccessfully -->
+        <test-method status="PASS" signature="testDeleteStoreSuccessfully()[pri:0, instance:apiTest.StoresAPiTest@12b0404f]" name="testDeleteStoreSuccessfully" duration-ms="99" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStoreSuccessfully -->
+      </class> <!-- apiTest.StoresAPiTest -->
+      <class name="apiTest.ServicesAPiTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:apiTest.ServicesAPiTest@419c5f1a]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TestGetAllServices()[pri:0, instance:apiTest.ServicesAPiTest@419c5f1a]" name="TestGetAllServices" duration-ms="18" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetAllServices -->
+        <test-method status="PASS" signature="addServices()[pri:0, instance:apiTest.ServicesAPiTest@419c5f1a]" name="addServices" duration-ms="28" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addServices -->
+        <test-method status="PASS" signature="TestServicesAppears()[pri:0, instance:apiTest.ServicesAPiTest@419c5f1a]" name="TestServicesAppears" duration-ms="7" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestServicesAppears -->
+        <test-method status="PASS" signature="TestUpdateServicesDetails()[pri:0, instance:apiTest.ServicesAPiTest@419c5f1a]" name="TestUpdateServicesDetails" duration-ms="18" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUpdateServicesDetails -->
+        <test-method status="PASS" signature="deleteServices()[pri:0, instance:apiTest.ServicesAPiTest@419c5f1a]" name="deleteServices" duration-ms="54" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteServices -->
+      </class> <!-- apiTest.ServicesAPiTest -->
+      <class name="apiTest.UtilitiesAPiTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:apiTest.UtilitiesAPiTest@769e7ee8]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TestGetVersion()[pri:0, instance:apiTest.UtilitiesAPiTest@769e7ee8]" name="TestGetVersion" duration-ms="7" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetVersion -->
+        <test-method status="PASS" signature="TestGetHealthCheck()[pri:0, instance:apiTest.UtilitiesAPiTest@769e7ee8]" name="TestGetHealthCheck" duration-ms="45" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetHealthCheck -->
+      </class> <!-- apiTest.UtilitiesAPiTest -->
+      <class name="apiTest.CategoriesAPiTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:apiTest.CategoriesAPiTest@56de5251]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testGetALlCategoriesSuccessfully()[pri:0, instance:apiTest.CategoriesAPiTest@56de5251]" name="testGetALlCategoriesSuccessfully" duration-ms="138" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetALlCategoriesSuccessfully -->
+        <test-method status="PASS" signature="testAddCategorySuccessfully()[pri:0, instance:apiTest.CategoriesAPiTest@56de5251]" name="testAddCategorySuccessfully" duration-ms="45" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCategorySuccessfully -->
+        <test-method status="PASS" signature="testFindCategoryByIdSuccessfully()[pri:0, instance:apiTest.CategoriesAPiTest@56de5251]" name="testFindCategoryByIdSuccessfully" duration-ms="26" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCategoryByIdSuccessfully -->
+        <test-method status="PASS" signature="testUpdateCategorySuccessfully()[pri:0, instance:apiTest.CategoriesAPiTest@56de5251]" name="testUpdateCategorySuccessfully" duration-ms="36" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateCategorySuccessfully -->
+        <test-method status="PASS" signature="testDeleteCategorySuccessfully()[pri:0, instance:apiTest.CategoriesAPiTest@56de5251]" name="testDeleteCategorySuccessfully" duration-ms="422" started-at="2022-02-03T06:46:52 EET" finished-at="2022-02-03T06:46:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCategorySuccessfully -->
+      </class> <!-- apiTest.CategoriesAPiTest -->
+      <class name="apiTest.ProductsAPiTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="beforeClass" is-config="true" duration-ms="505" started-at="2022-02-03T06:46:45 EET" finished-at="2022-02-03T06:46:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testGetALlProductsSuccessfully()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="testGetALlProductsSuccessfully" duration-ms="3064" started-at="2022-02-03T06:46:46 EET" finished-at="2022-02-03T06:46:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetALlProductsSuccessfully -->
+        <test-method status="PASS" signature="testAddProductSuccessfully()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="testAddProductSuccessfully" duration-ms="504" started-at="2022-02-03T06:46:49 EET" finished-at="2022-02-03T06:46:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductSuccessfully -->
+        <test-method status="PASS" signature="testFindProductByIdSuccessfully()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="testFindProductByIdSuccessfully" duration-ms="78" started-at="2022-02-03T06:46:49 EET" finished-at="2022-02-03T06:46:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindProductByIdSuccessfully -->
+        <test-method status="PASS" signature="testUpdateProductSuccessfully()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="testUpdateProductSuccessfully" duration-ms="107" started-at="2022-02-03T06:46:49 EET" finished-at="2022-02-03T06:46:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateProductSuccessfully -->
+        <test-method status="PASS" signature="testDeleteProductSuccessfully()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="testDeleteProductSuccessfully" duration-ms="93" started-at="2022-02-03T06:46:49 EET" finished-at="2022-02-03T06:46:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteProductSuccessfully -->
+        <test-method status="PASS" signature="testLimitedProduct()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="testLimitedProduct" duration-ms="202" started-at="2022-02-03T06:46:50 EET" finished-at="2022-02-03T06:46:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLimitedProduct -->
+        <test-method status="PASS" signature="testSkippedProduct()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="testSkippedProduct" duration-ms="201" started-at="2022-02-03T06:46:50 EET" finished-at="2022-02-03T06:46:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkippedProduct -->
+        <test-method status="PASS" signature="TestSortProductByHighestPrice()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="TestSortProductByHighestPrice" duration-ms="206" started-at="2022-02-03T06:46:50 EET" finished-at="2022-02-03T06:46:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSortProductByHighestPrice -->
+        <test-method status="PASS" signature="TestSortProductByLowestPrice()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="TestSortProductByLowestPrice" duration-ms="201" started-at="2022-02-03T06:46:50 EET" finished-at="2022-02-03T06:46:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSortProductByLowestPrice -->
+        <test-method status="PASS" signature="TestShownNameAndPriceOfAllProducts()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="TestShownNameAndPriceOfAllProducts" duration-ms="66" started-at="2022-02-03T06:46:50 EET" finished-at="2022-02-03T06:46:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestShownNameAndPriceOfAllProducts -->
+        <test-method status="PASS" signature="TestProductsWithHardGood()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="TestProductsWithHardGood" duration-ms="190" started-at="2022-02-03T06:46:50 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestProductsWithHardGood -->
+        <test-method status="PASS" signature="TestProductsWithPriceLessThanDollar()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="TestProductsWithPriceLessThanDollar" duration-ms="89" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestProductsWithPriceLessThanDollar -->
+        <test-method status="PASS" signature="showSpecPrice()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="showSpecPrice" duration-ms="64" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showSpecPrice -->
+        <test-method status="PASS" signature="showProductsWithShipPriceMoreThan10Dollar()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="showProductsWithShipPriceMoreThan10Dollar" duration-ms="78" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showProductsWithShipPriceMoreThan10Dollar -->
+        <test-method status="PASS" signature="showSpecType()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="showSpecType" duration-ms="92" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showSpecType -->
+        <test-method status="PASS" signature="showProductsByCategoryName()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="showProductsByCategoryName" duration-ms="263" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showProductsByCategoryName -->
+        <test-method status="PASS" signature="showProductsByCategoryId()[pri:0, instance:apiTest.ProductsAPiTest@43301423]" name="showProductsByCategoryId" duration-ms="54" started-at="2022-02-03T06:46:51 EET" finished-at="2022-02-03T06:46:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showProductsByCategoryId -->
+      </class> <!-- apiTest.ProductsAPiTest -->
+    </test> <!-- F:/BestBuyAPiTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-All_Test_Suite">
+              <span class="suite-name border-passed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-All_Test_Suite">
+                    <span>F:\BestBuyAPiTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-All_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-All_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-All_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-All_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-All_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-All_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ServicesAPiTest" hash-for-method="TestGetAllServices">TestGetAllServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.UtilitiesAPiTest" hash-for-method="TestGetHealthCheck">TestGetHealthCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.UtilitiesAPiTest" hash-for-method="TestGetVersion">TestGetVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="TestProductsWithHardGood">TestProductsWithHardGood</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="TestProductsWithPriceLessThanDollar">TestProductsWithPriceLessThanDollar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ServicesAPiTest" hash-for-method="TestServicesAppears">TestServicesAppears</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="TestShownNameAndPriceOfAllProducts">TestShownNameAndPriceOfAllProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="TestSortProductByHighestPrice">TestSortProductByHighestPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="TestSortProductByLowestPrice">TestSortProductByLowestPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ServicesAPiTest" hash-for-method="TestUpdateServicesDetails">TestUpdateServicesDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ServicesAPiTest" hash-for-method="addServices">addServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ServicesAPiTest" hash-for-method="deleteServices">deleteServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="showProductsByCategoryId">showProductsByCategoryId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="showProductsByCategoryName">showProductsByCategoryName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="showProductsWithShipPriceMoreThan10Dollar">showProductsWithShipPriceMoreThan10Dollar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="showSpecPrice">showSpecPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="showSpecType">showSpecType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.CategoriesAPiTest" hash-for-method="testAddCategorySuccessfully">testAddCategorySuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="testAddProductSuccessfully">testAddProductSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.StoresAPiTest" hash-for-method="testAddStoreSuccessfully">testAddStoreSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.CategoriesAPiTest" hash-for-method="testDeleteCategorySuccessfully">testDeleteCategorySuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="testDeleteProductSuccessfully">testDeleteProductSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.StoresAPiTest" hash-for-method="testDeleteStoreSuccessfully">testDeleteStoreSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.CategoriesAPiTest" hash-for-method="testFindCategoryByIdSuccessfully">testFindCategoryByIdSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="testFindProductByIdSuccessfully">testFindProductByIdSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.CategoriesAPiTest" hash-for-method="testGetALlCategoriesSuccessfully">testGetALlCategoriesSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="testGetALlProductsSuccessfully">testGetALlProductsSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.StoresAPiTest" hash-for-method="testGetAllStoresSuccessfully">testGetAllStoresSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.StoresAPiTest" hash-for-method="testGetStoreByIdSuccessfully">testGetStoreByIdSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="testLimitedProduct">testLimitedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="testSkippedProduct">testSkippedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.CategoriesAPiTest" hash-for-method="testUpdateCategorySuccessfully">testUpdateCategorySuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.ProductsAPiTest" hash-for-method="testUpdateProductSuccessfully">testUpdateProductSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="apiTest.StoresAPiTest" hash-for-method="testUpdateStoreSuccessfully">testUpdateStoreSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTest.CategoriesAPiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddCategorySuccessfully">
+                  </a> <!-- testAddCategorySuccessfully -->
+                  <span class="method-name">testAddCategorySuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteCategorySuccessfully">
+                  </a> <!-- testDeleteCategorySuccessfully -->
+                  <span class="method-name">testDeleteCategorySuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindCategoryByIdSuccessfully">
+                  </a> <!-- testFindCategoryByIdSuccessfully -->
+                  <span class="method-name">testFindCategoryByIdSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetALlCategoriesSuccessfully">
+                  </a> <!-- testGetALlCategoriesSuccessfully -->
+                  <span class="method-name">testGetALlCategoriesSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateCategorySuccessfully">
+                  </a> <!-- testUpdateCategorySuccessfully -->
+                  <span class="method-name">testUpdateCategorySuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTest.StoresAPiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddStoreSuccessfully">
+                  </a> <!-- testAddStoreSuccessfully -->
+                  <span class="method-name">testAddStoreSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteStoreSuccessfully">
+                  </a> <!-- testDeleteStoreSuccessfully -->
+                  <span class="method-name">testDeleteStoreSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllStoresSuccessfully">
+                  </a> <!-- testGetAllStoresSuccessfully -->
+                  <span class="method-name">testGetAllStoresSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetStoreByIdSuccessfully">
+                  </a> <!-- testGetStoreByIdSuccessfully -->
+                  <span class="method-name">testGetStoreByIdSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateStoreSuccessfully">
+                  </a> <!-- testUpdateStoreSuccessfully -->
+                  <span class="method-name">testUpdateStoreSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTest.ProductsAPiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestProductsWithHardGood">
+                  </a> <!-- TestProductsWithHardGood -->
+                  <span class="method-name">TestProductsWithHardGood</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestProductsWithPriceLessThanDollar">
+                  </a> <!-- TestProductsWithPriceLessThanDollar -->
+                  <span class="method-name">TestProductsWithPriceLessThanDollar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestShownNameAndPriceOfAllProducts">
+                  </a> <!-- TestShownNameAndPriceOfAllProducts -->
+                  <span class="method-name">TestShownNameAndPriceOfAllProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSortProductByHighestPrice">
+                  </a> <!-- TestSortProductByHighestPrice -->
+                  <span class="method-name">TestSortProductByHighestPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSortProductByLowestPrice">
+                  </a> <!-- TestSortProductByLowestPrice -->
+                  <span class="method-name">TestSortProductByLowestPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showProductsByCategoryId">
+                  </a> <!-- showProductsByCategoryId -->
+                  <span class="method-name">showProductsByCategoryId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showProductsByCategoryName">
+                  </a> <!-- showProductsByCategoryName -->
+                  <span class="method-name">showProductsByCategoryName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showProductsWithShipPriceMoreThan10Dollar">
+                  </a> <!-- showProductsWithShipPriceMoreThan10Dollar -->
+                  <span class="method-name">showProductsWithShipPriceMoreThan10Dollar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showSpecPrice">
+                  </a> <!-- showSpecPrice -->
+                  <span class="method-name">showSpecPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showSpecType">
+                  </a> <!-- showSpecType -->
+                  <span class="method-name">showSpecType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProductSuccessfully">
+                  </a> <!-- testAddProductSuccessfully -->
+                  <span class="method-name">testAddProductSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteProductSuccessfully">
+                  </a> <!-- testDeleteProductSuccessfully -->
+                  <span class="method-name">testDeleteProductSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindProductByIdSuccessfully">
+                  </a> <!-- testFindProductByIdSuccessfully -->
+                  <span class="method-name">testFindProductByIdSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetALlProductsSuccessfully">
+                  </a> <!-- testGetALlProductsSuccessfully -->
+                  <span class="method-name">testGetALlProductsSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLimitedProduct">
+                  </a> <!-- testLimitedProduct -->
+                  <span class="method-name">testLimitedProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkippedProduct">
+                  </a> <!-- testSkippedProduct -->
+                  <span class="method-name">testSkippedProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateProductSuccessfully">
+                  </a> <!-- testUpdateProductSuccessfully -->
+                  <span class="method-name">testUpdateProductSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTest.UtilitiesAPiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestGetHealthCheck">
+                  </a> <!-- TestGetHealthCheck -->
+                  <span class="method-name">TestGetHealthCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestGetVersion">
+                  </a> <!-- TestGetVersion -->
+                  <span class="method-name">TestGetVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTest.ServicesAPiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestGetAllServices">
+                  </a> <!-- TestGetAllServices -->
+                  <span class="method-name">TestGetAllServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestServicesAppears">
+                  </a> <!-- TestServicesAppears -->
+                  <span class="method-name">TestServicesAppears</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestUpdateServicesDetails">
+                  </a> <!-- TestUpdateServicesDetails -->
+                  <span class="method-name">TestUpdateServicesDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addServices">
+                  </a> <!-- addServices -->
+                  <span class="method-name">addServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteServices">
+                  </a> <!-- deleteServices -->
+                  <span class="method-name">deleteServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\BestBuyAPiTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;All Test Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;F:/BestBuyAPiTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;apiTest.ProductsAPiTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testGetALlProductsSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testAddProductSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testFindProductByIdSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testUpdateProductSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testDeleteProductSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testLimitedProduct&quot;/&gt;
+          &lt;include name=&quot;testSkippedProduct&quot;/&gt;
+          &lt;include name=&quot;TestSortProductByHighestPrice&quot;/&gt;
+          &lt;include name=&quot;TestSortProductByLowestPrice&quot;/&gt;
+          &lt;include name=&quot;TestShownNameAndPriceOfAllProducts&quot;/&gt;
+          &lt;include name=&quot;TestProductsWithHardGood&quot;/&gt;
+          &lt;include name=&quot;TestProductsWithPriceLessThanDollar&quot;/&gt;
+          &lt;include name=&quot;showSpecPrice&quot;/&gt;
+          &lt;include name=&quot;showProductsWithShipPriceMoreThan10Dollar&quot;/&gt;
+          &lt;include name=&quot;showSpecType&quot;/&gt;
+          &lt;include name=&quot;showProductsByCategoryName&quot;/&gt;
+          &lt;include name=&quot;showProductsByCategoryId&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- apiTest.ProductsAPiTest --&gt;
+      &lt;class name=&quot;apiTest.CategoriesAPiTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testGetALlCategoriesSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testAddCategorySuccessfully&quot;/&gt;
+          &lt;include name=&quot;testFindCategoryByIdSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testUpdateCategorySuccessfully&quot;/&gt;
+          &lt;include name=&quot;testDeleteCategorySuccessfully&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- apiTest.CategoriesAPiTest --&gt;
+      &lt;class name=&quot;apiTest.ServicesAPiTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TestGetAllServices&quot;/&gt;
+          &lt;include name=&quot;addServices&quot;/&gt;
+          &lt;include name=&quot;TestServicesAppears&quot;/&gt;
+          &lt;include name=&quot;TestUpdateServicesDetails&quot;/&gt;
+          &lt;include name=&quot;deleteServices&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- apiTest.ServicesAPiTest --&gt;
+      &lt;class name=&quot;apiTest.StoresAPiTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testGetAllStoresSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testAddStoreSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testGetStoreByIdSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testUpdateStoreSuccessfully&quot;/&gt;
+          &lt;include name=&quot;testDeleteStoreSuccessfully&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- apiTest.StoresAPiTest --&gt;
+      &lt;class name=&quot;apiTest.UtilitiesAPiTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TestGetVersion&quot;/&gt;
+          &lt;include name=&quot;TestGetHealthCheck&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- apiTest.UtilitiesAPiTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- F:/BestBuyAPiTest --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">F:/BestBuyAPiTest (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetALlProductsSuccessfully')
+data.setCell(0, 2, 'apiTest.ProductsAPiTest')
+data.setCell(0, 3, 3064);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAddProductSuccessfully')
+data.setCell(1, 2, 'apiTest.ProductsAPiTest')
+data.setCell(1, 3, 504);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDeleteCategorySuccessfully')
+data.setCell(2, 2, 'apiTest.CategoriesAPiTest')
+data.setCell(2, 3, 422);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'showProductsByCategoryName')
+data.setCell(3, 2, 'apiTest.ProductsAPiTest')
+data.setCell(3, 3, 263);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestSortProductByHighestPrice')
+data.setCell(4, 2, 'apiTest.ProductsAPiTest')
+data.setCell(4, 3, 206);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLimitedProduct')
+data.setCell(5, 2, 'apiTest.ProductsAPiTest')
+data.setCell(5, 3, 202);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSkippedProduct')
+data.setCell(6, 2, 'apiTest.ProductsAPiTest')
+data.setCell(6, 3, 201);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestSortProductByLowestPrice')
+data.setCell(7, 2, 'apiTest.ProductsAPiTest')
+data.setCell(7, 3, 201);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestProductsWithHardGood')
+data.setCell(8, 2, 'apiTest.ProductsAPiTest')
+data.setCell(8, 3, 190);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetALlCategoriesSuccessfully')
+data.setCell(9, 2, 'apiTest.CategoriesAPiTest')
+data.setCell(9, 3, 138);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testUpdateProductSuccessfully')
+data.setCell(10, 2, 'apiTest.ProductsAPiTest')
+data.setCell(10, 3, 107);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGetAllStoresSuccessfully')
+data.setCell(11, 2, 'apiTest.StoresAPiTest')
+data.setCell(11, 3, 103);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testDeleteStoreSuccessfully')
+data.setCell(12, 2, 'apiTest.StoresAPiTest')
+data.setCell(12, 3, 99);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDeleteProductSuccessfully')
+data.setCell(13, 2, 'apiTest.ProductsAPiTest')
+data.setCell(13, 3, 93);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'showSpecType')
+data.setCell(14, 2, 'apiTest.ProductsAPiTest')
+data.setCell(14, 3, 92);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestProductsWithPriceLessThanDollar')
+data.setCell(15, 2, 'apiTest.ProductsAPiTest')
+data.setCell(15, 3, 89);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'showProductsWithShipPriceMoreThan10Dollar')
+data.setCell(16, 2, 'apiTest.ProductsAPiTest')
+data.setCell(16, 3, 78);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testFindProductByIdSuccessfully')
+data.setCell(17, 2, 'apiTest.ProductsAPiTest')
+data.setCell(17, 3, 78);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testAddStoreSuccessfully')
+data.setCell(18, 2, 'apiTest.StoresAPiTest')
+data.setCell(18, 3, 67);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestShownNameAndPriceOfAllProducts')
+data.setCell(19, 2, 'apiTest.ProductsAPiTest')
+data.setCell(19, 3, 66);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'showSpecPrice')
+data.setCell(20, 2, 'apiTest.ProductsAPiTest')
+data.setCell(20, 3, 64);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testUpdateStoreSuccessfully')
+data.setCell(21, 2, 'apiTest.StoresAPiTest')
+data.setCell(21, 3, 59);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'showProductsByCategoryId')
+data.setCell(22, 2, 'apiTest.ProductsAPiTest')
+data.setCell(22, 3, 54);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'deleteServices')
+data.setCell(23, 2, 'apiTest.ServicesAPiTest')
+data.setCell(23, 3, 54);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testGetStoreByIdSuccessfully')
+data.setCell(24, 2, 'apiTest.StoresAPiTest')
+data.setCell(24, 3, 46);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testAddCategorySuccessfully')
+data.setCell(25, 2, 'apiTest.CategoriesAPiTest')
+data.setCell(25, 3, 45);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TestGetHealthCheck')
+data.setCell(26, 2, 'apiTest.UtilitiesAPiTest')
+data.setCell(26, 3, 45);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testUpdateCategorySuccessfully')
+data.setCell(27, 2, 'apiTest.CategoriesAPiTest')
+data.setCell(27, 3, 36);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'addServices')
+data.setCell(28, 2, 'apiTest.ServicesAPiTest')
+data.setCell(28, 3, 28);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testFindCategoryByIdSuccessfully')
+data.setCell(29, 2, 'apiTest.CategoriesAPiTest')
+data.setCell(29, 3, 26);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TestUpdateServicesDetails')
+data.setCell(30, 2, 'apiTest.ServicesAPiTest')
+data.setCell(30, 3, 18);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TestGetAllServices')
+data.setCell(31, 2, 'apiTest.ServicesAPiTest')
+data.setCell(31, 3, 18);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TestGetVersion')
+data.setCell(32, 2, 'apiTest.UtilitiesAPiTest')
+data.setCell(32, 3, 7);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TestServicesAppears')
+data.setCell(33, 2, 'apiTest.ServicesAPiTest')
+data.setCell(33, 3, 7);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTest.ProductsAPiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGetALlProductsSuccessfully</span>
+                <span class="method-start">514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddProductSuccessfully</span>
+                <span class="method-start">3662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindProductByIdSuccessfully</span>
+                <span class="method-start">4168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateProductSuccessfully</span>
+                <span class="method-start">4249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteProductSuccessfully</span>
+                <span class="method-start">4359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLimitedProduct</span>
+                <span class="method-start">4454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSkippedProduct</span>
+                <span class="method-start">4657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestSortProductByHighestPrice</span>
+                <span class="method-start">4859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestSortProductByLowestPrice</span>
+                <span class="method-start">5067 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestShownNameAndPriceOfAllProducts</span>
+                <span class="method-start">5269 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestProductsWithHardGood</span>
+                <span class="method-start">5337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestProductsWithPriceLessThanDollar</span>
+                <span class="method-start">5529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showSpecPrice</span>
+                <span class="method-start">5620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showProductsWithShipPriceMoreThan10Dollar</span>
+                <span class="method-start">5686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showSpecType</span>
+                <span class="method-start">5766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showProductsByCategoryName</span>
+                <span class="method-start">5860 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showProductsByCategoryId</span>
+                <span class="method-start">6127 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTest.CategoriesAPiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">6183 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGetALlCategoriesSuccessfully</span>
+                <span class="method-start">6184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddCategorySuccessfully</span>
+                <span class="method-start">6324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindCategoryByIdSuccessfully</span>
+                <span class="method-start">6370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateCategorySuccessfully</span>
+                <span class="method-start">6397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteCategorySuccessfully</span>
+                <span class="method-start">6433 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTest.ServicesAPiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">6856 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestGetAllServices</span>
+                <span class="method-start">6857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addServices</span>
+                <span class="method-start">6876 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestServicesAppears</span>
+                <span class="method-start">6905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestUpdateServicesDetails</span>
+                <span class="method-start">6913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteServices</span>
+                <span class="method-start">6933 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTest.StoresAPiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">6990 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllStoresSuccessfully</span>
+                <span class="method-start">6995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddStoreSuccessfully</span>
+                <span class="method-start">7099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetStoreByIdSuccessfully</span>
+                <span class="method-start">7168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateStoreSuccessfully</span>
+                <span class="method-start">7215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteStoreSuccessfully</span>
+                <span class="method-start">7275 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTest.UtilitiesAPiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">7375 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestGetVersion</span>
+                <span class="method-start">7377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestGetHealthCheck</span>
+                <span class="method-start">7387 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,5 @@
+base\TestBase.class
+data\ExcelFileManager$1.class
+data\ExcelFileManager.class
+pagesTest\SignUpTestBase.class
+pagesTest\LoginPageTestBase.class

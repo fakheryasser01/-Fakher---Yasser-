@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/fakheryasser/IdeaProjects/FacebookProject">
+        <classes>
+            <class name="pagesTest.SignUpTestBase">
+                <parameter name="browserName" value="chrome"></parameter>
+
+                <methods>
+                    <include name="testSignUpWithInvalidFirstUserName">
+                        <parameter name="sheetName" value="SignUpUsersData"></parameter>
+                        <parameter name="userNumber" value="2"></parameter>
+                    </include>
+
+                    <include name="testSignUpWithInvalidLastUserName">
+                        <parameter name="sheetName" value="SignUpUsersData"></parameter>
+                        <parameter name="userNumber" value="3"></parameter>
+                    </include>
+
+                    <include name="testSignUpWithInvalidUserDateOfBirth">
+                        <parameter name="sheetName" value="SignUpUsersData"></parameter>
+                        <parameter name="userNumber" value="4"></parameter>
+                    </include>
+
+                    <include name="testSignUpWithEmailsDoseNotMatch">
+                        <parameter name="sheetName" value="SignUpUsersData"></parameter>
+                        <parameter name="userNumber" value="5"></parameter>
+                    </include>
+
+                    <include name="testSignUpWithNoGender">
+                        <parameter name="sheetName" value="SignUpUsersData"></parameter>
+                        <parameter name="userNumber" value="6"></parameter>
+                    </include>
+
+                    <include name="testUserSignUpSuccessfully">
+                        <parameter name="sheetName" value="SignUpUsersData"></parameter>
+                        <parameter name="userNumber" value="7"></parameter>
+                    </include>
+
+                </methods>
+            </class>
+
+            <class name="pagesTest.LoginPageTestBase">
+                <methods>
+                    <include name="testUserSignInWithInvalidPassword">
+                        <parameter name="sheetName" value="LoginUsersData"></parameter>
+                        <parameter name="userNumber" value="2"></parameter>
+                    </include>
+                    <include name="testUserSignInWithInvalidEmail">
+                        <parameter name="sheetName" value="LoginUsersData"></parameter>
+                        <parameter name="userNumber" value="3"></parameter>
+
+                    </include>
+                    <include name="testUserSignInWithInvalidEmailAndPassword">
+                        <parameter name="sheetName" value="LoginUsersData"></parameter>
+                        <parameter name="userNumber" value="4"></parameter>
+
+
+                    </include>
+                    <include name="testUserSignInSuccessfully">
+                        <parameter name="sheetName" value="LoginUsersData"></parameter>
+                        <parameter name="userNumber" value="5"></parameter>
+
+
+                    </include>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>

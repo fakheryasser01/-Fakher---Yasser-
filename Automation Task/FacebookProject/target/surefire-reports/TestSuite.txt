@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 93.367 s <<< FAILURE! - in TestSuite
+pagesTest.LoginPageTestBase.testUserSignInWithInvalidPassword[LoginUsersData, 2](1)  Time elapsed: 19.683 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div[class='fsl fwb fcb'] (tried for 15 second(s) with 2000 milliseconds interval)
+	at pagesTest.LoginPageTestBase.testUserSignInWithInvalidPassword(LoginPageTestBase.java:25)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div[class='fsl fwb fcb']"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KNRI3NA5', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\lenov\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b7eca2b24a425f0f2145af5a7a887e5
+*** Element info: {Using=css selector, value=div[class='fsl fwb fcb']}
+	at pagesTest.LoginPageTestBase.testUserSignInWithInvalidPassword(LoginPageTestBase.java:25)
+
+pagesTest.LoginPageTestBase.testUserSignInWithInvalidEmailAndPassword[LoginUsersData, 4](1)  Time elapsed: 19.652 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div[class='fsl fwb fcb'] (tried for 15 second(s) with 2000 milliseconds interval)
+	at pagesTest.LoginPageTestBase.testUserSignInWithInvalidEmailAndPassword(LoginPageTestBase.java:49)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div[class='fsl fwb fcb']"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KNRI3NA5', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\lenov\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b7eca2b24a425f0f2145af5a7a887e5
+*** Element info: {Using=css selector, value=div[class='fsl fwb fcb']}
+	at pagesTest.LoginPageTestBase.testUserSignInWithInvalidEmailAndPassword(LoginPageTestBase.java:49)
+

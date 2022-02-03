@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>TestNG:  F:/BestBuyAPiTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>F:/BestBuyAPiTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 03 06:46:45 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7453 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='apiTest.CategoriesAPiTest.testAddCategorySuccessfully()'><b>testAddCategorySuccessfully</b><br>Test class: apiTest.CategoriesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.CategoriesAPiTest@56de5251</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.showProductsWithShipPriceMoreThan10Dollar()'><b>showProductsWithShipPriceMoreThan10Dollar</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.CategoriesAPiTest.testFindCategoryByIdSuccessfully()'><b>testFindCategoryByIdSuccessfully</b><br>Test class: apiTest.CategoriesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.CategoriesAPiTest@56de5251</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.TestProductsWithPriceLessThanDollar()'><b>TestProductsWithPriceLessThanDollar</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.UtilitiesAPiTest.TestGetVersion()'><b>TestGetVersion</b><br>Test class: apiTest.UtilitiesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.UtilitiesAPiTest@769e7ee8</td></tr>
+<tr>
+<td title='apiTest.UtilitiesAPiTest.TestGetHealthCheck()'><b>TestGetHealthCheck</b><br>Test class: apiTest.UtilitiesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.UtilitiesAPiTest@769e7ee8</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.showProductsByCategoryId()'><b>showProductsByCategoryId</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.CategoriesAPiTest.testGetALlCategoriesSuccessfully()'><b>testGetALlCategoriesSuccessfully</b><br>Test class: apiTest.CategoriesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.CategoriesAPiTest@56de5251</td></tr>
+<tr>
+<td title='apiTest.StoresAPiTest.testUpdateStoreSuccessfully()'><b>testUpdateStoreSuccessfully</b><br>Test class: apiTest.StoresAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.StoresAPiTest@12b0404f</td></tr>
+<tr>
+<td title='apiTest.ServicesAPiTest.TestUpdateServicesDetails()'><b>TestUpdateServicesDetails</b><br>Test class: apiTest.ServicesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ServicesAPiTest@419c5f1a</td></tr>
+<tr>
+<td title='apiTest.CategoriesAPiTest.testUpdateCategorySuccessfully()'><b>testUpdateCategorySuccessfully</b><br>Test class: apiTest.CategoriesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.CategoriesAPiTest@56de5251</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.testSkippedProduct()'><b>testSkippedProduct</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.TestSortProductByLowestPrice()'><b>TestSortProductByLowestPrice</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.StoresAPiTest.testDeleteStoreSuccessfully()'><b>testDeleteStoreSuccessfully</b><br>Test class: apiTest.StoresAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.StoresAPiTest@12b0404f</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.testLimitedProduct()'><b>testLimitedProduct</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.testDeleteProductSuccessfully()'><b>testDeleteProductSuccessfully</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.StoresAPiTest.testGetAllStoresSuccessfully()'><b>testGetAllStoresSuccessfully</b><br>Test class: apiTest.StoresAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.StoresAPiTest@12b0404f</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.TestShownNameAndPriceOfAllProducts()'><b>TestShownNameAndPriceOfAllProducts</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.showSpecPrice()'><b>showSpecPrice</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.TestSortProductByHighestPrice()'><b>TestSortProductByHighestPrice</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.TestProductsWithHardGood()'><b>TestProductsWithHardGood</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.showSpecType()'><b>showSpecType</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.testUpdateProductSuccessfully()'><b>testUpdateProductSuccessfully</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.ServicesAPiTest.deleteServices()'><b>deleteServices</b><br>Test class: apiTest.ServicesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ServicesAPiTest@419c5f1a</td></tr>
+<tr>
+<td title='apiTest.ServicesAPiTest.TestGetAllServices()'><b>TestGetAllServices</b><br>Test class: apiTest.ServicesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ServicesAPiTest@419c5f1a</td></tr>
+<tr>
+<td title='apiTest.ServicesAPiTest.TestServicesAppears()'><b>TestServicesAppears</b><br>Test class: apiTest.ServicesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ServicesAPiTest@419c5f1a</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.showProductsByCategoryName()'><b>showProductsByCategoryName</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.testGetALlProductsSuccessfully()'><b>testGetALlProductsSuccessfully</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>3</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.ServicesAPiTest.addServices()'><b>addServices</b><br>Test class: apiTest.ServicesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ServicesAPiTest@419c5f1a</td></tr>
+<tr>
+<td title='apiTest.CategoriesAPiTest.testDeleteCategorySuccessfully()'><b>testDeleteCategorySuccessfully</b><br>Test class: apiTest.CategoriesAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.CategoriesAPiTest@56de5251</td></tr>
+<tr>
+<td title='apiTest.StoresAPiTest.testGetStoreByIdSuccessfully()'><b>testGetStoreByIdSuccessfully</b><br>Test class: apiTest.StoresAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.StoresAPiTest@12b0404f</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.testFindProductByIdSuccessfully()'><b>testFindProductByIdSuccessfully</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+<tr>
+<td title='apiTest.StoresAPiTest.testAddStoreSuccessfully()'><b>testAddStoreSuccessfully</b><br>Test class: apiTest.StoresAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.StoresAPiTest@12b0404f</td></tr>
+<tr>
+<td title='apiTest.ProductsAPiTest.testAddProductSuccessfully()'><b>testAddProductSuccessfully</b><br>Test class: apiTest.ProductsAPiTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.ProductsAPiTest@43301423</td></tr>
+</table><p>
+</body>
+</html>

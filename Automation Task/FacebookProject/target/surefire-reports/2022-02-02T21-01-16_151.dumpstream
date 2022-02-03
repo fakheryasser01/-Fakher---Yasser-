@@ -1,0 +1,4 @@
+# Created at 2022-02-02T21:01:16.586
+Boot Manifest-JAR contains absolute paths in classpath 'F:\FacebookProject\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

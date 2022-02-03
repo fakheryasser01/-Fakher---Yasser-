@@ -1,0 +1,8 @@
+apiFactory\ServicesApi.class
+apiFactory\ProductsApi.class
+apiFactory\ApiBase$1.class
+apiFactory\StoresApi.class
+apiFactory\ApiBase.class
+apiFactory\CategoriesApi.class
+apiFactory\UtilitiesApi.class
+data\RequestType.class

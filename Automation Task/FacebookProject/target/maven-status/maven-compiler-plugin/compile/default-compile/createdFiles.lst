@@ -1,0 +1,5 @@
+pages\SignUpPage.class
+pages\ForgotPassword.class
+pages\PageBase.class
+pages\LoginPage.class
+pages\HomePage.class

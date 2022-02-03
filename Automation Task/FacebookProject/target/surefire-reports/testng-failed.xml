@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <test thread-count="5" verbose="0" name="/Users/fakheryasser/IdeaProjects/FacebookProject(failed)">
+    <classes>
+      <class name="pagesTest.LoginPageTestBase">
+        <methods>
+          <include name="testUserSignInWithInvalidPassword" invocation-numbers="0">
+            <parameter name="sheetName" value="LoginUsersData"/>
+            <parameter name="userNumber" value="2"/>
+          </include> <!-- testUserSignInWithInvalidPassword -->
+          <include name="goToHomePage"/>
+          <include name="recordFailure"/>
+          <include name="setupDriver"/>
+          <include name="testUserSignInWithInvalidEmailAndPassword" invocation-numbers="0">
+            <parameter name="sheetName" value="LoginUsersData"/>
+            <parameter name="userNumber" value="4"/>
+          </include> <!-- testUserSignInWithInvalidEmailAndPassword -->
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pagesTest.LoginPageTestBase -->
+    </classes>
+  </test> <!-- /Users/fakheryasser/IdeaProjects/FacebookProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

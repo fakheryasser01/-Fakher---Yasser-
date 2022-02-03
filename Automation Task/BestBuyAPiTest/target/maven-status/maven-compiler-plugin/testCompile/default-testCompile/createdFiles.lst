@@ -1,0 +1,5 @@
+apiTest\ProductsAPiTest.class
+apiTest\StoresAPiTest.class
+apiTest\CategoriesAPiTest.class
+apiTest\ServicesAPiTest.class
+apiTest\UtilitiesAPiTest.class
